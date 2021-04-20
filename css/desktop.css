@@ -1,0 +1,8 @@
+/*Navigation Bar*/
+
+nav{
+    padding-left: 5rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
