@@ -5,4 +5,27 @@ nav{
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
+
+    transition: padding-left 0.5s ease;
+}
+
+.main-nav{
+    height: 5rem;
+    transition: height 0.5s ease;
+}
+
+@keyframes transformOpacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.main-nav__item{
+    margin-right: 5px;
+    transition-property: margin-right;
+    transition-duration: 0.5s;
+    animation: transformOpacity 0.5s ease 0s 1;
 }

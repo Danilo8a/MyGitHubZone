@@ -1,0 +1,16 @@
+.box-name-image{
+    flex-direction: row;
+}
+
+.box-name-image > img{
+    width: 25rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 20rem;
+}
+
+.box-name-nickname{
+    align-self: flex-end;
+    margin-left: 4.4rem;
+    margin-bottom: 1rem;
+}
